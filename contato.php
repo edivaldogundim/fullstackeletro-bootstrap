@@ -90,7 +90,7 @@ else{
 ?>
 </div>
 
-<div class="container-center" style="text-align:center;">
+<div class="container" style="text-align:center;">
     <footer>
         <p class="text-danger">Formas de pagamento</p>
         <img src="./imagens/formas-pagamento.png" alt="Formas de pagamento">
