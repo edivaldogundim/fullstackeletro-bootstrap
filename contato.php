@@ -56,18 +56,19 @@ if(isset($_POST['nome']) && isset($_POST['msg'])){
   </div>
 
 <br><br>
-    <form>
+    <form method="post" action="">
   <div class="form-group">
     <label for="nome">Nome</label>
-    <input type="text" class="form-control w-50 p-3" id="nome" placeholder="Seu nome">
+    <input type="text" name="nome" class="form-control w-50 p-3" id="nome" placeholder="Seu nome">
 
   </div>
   <div class="form-group">
     <label for="msg">Mensagem</label>
-    <input type="text" class="form-control w-75 p-3" id="msg" placeholder="Digite sua mensagem...">
+    <input type="text" name="msg" class="form-control w-75 p-3" id="msg" placeholder="Digite sua mensagem...">
   </div>
   <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
+
 
     <h2><b>Comentários</b></h2>
       <?php
